@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files containing environment values
+# Uncomment if these contain secrets:
+# *.tfvars
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
